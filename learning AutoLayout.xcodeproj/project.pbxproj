@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92D63FEE22D04D0A006C4CB6 /* SwippingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D63FED22D04D0A006C4CB6 /* SwippingController.swift */; };
+		92D63FF022D06D3D006C4CB6 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D63FEF22D06D3D006C4CB6 /* PageCell.swift */; };
+		92D63FF222D2AA32006C4CB6 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D63FF122D2AA32006C4CB6 /* Page.swift */; };
+		92D63FF422D2CB93006C4CB6 /* SwippingController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D63FF322D2CB93006C4CB6 /* SwippingController+Extension.swift */; };
+		92D63FF622D2CC31006C4CB6 /* SwippingControllerUIVIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D63FF522D2CC31006C4CB6 /* SwippingControllerUIVIew+Extension.swift */; };
 		92DAD2CE22C30B15001E9F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAD2CD22C30B15001E9F9F /* AppDelegate.swift */; };
-		92DAD2D022C30B15001E9F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DAD2CF22C30B15001E9F9F /* ViewController.swift */; };
-		92DAD2D322C30B15001E9F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DAD2D122C30B15001E9F9F /* Main.storyboard */; };
-		92DAD2D522C30B16001E9F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DAD2D422C30B16001E9F9F /* Assets.xcassets */; };
 		92DAD2D822C30B16001E9F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DAD2D622C30B16001E9F9F /* LaunchScreen.storyboard */; };
+		92DAD2E022C324E7001E9F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DAD2DF22C324E7001E9F9F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92DAD2CA22C30B15001E9F9F /* learning AutoLayout LBTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learning AutoLayout LBTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D63FED22D04D0A006C4CB6 /* SwippingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwippingController.swift; sourceTree = "<group>"; };
+		92D63FEF22D06D3D006C4CB6 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		92D63FF122D2AA32006C4CB6 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		92D63FF322D2CB93006C4CB6 /* SwippingController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+Extension.swift"; sourceTree = "<group>"; };
+		92D63FF522D2CC31006C4CB6 /* SwippingControllerUIVIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingControllerUIVIew+Extension.swift"; sourceTree = "<group>"; };
+		92DAD2CA22C30B15001E9F9F /* learning AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "learning AutoLayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DAD2CD22C30B15001E9F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92DAD2CF22C30B15001E9F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92DAD2D222C30B15001E9F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92DAD2D422C30B16001E9F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DAD2D722C30B16001E9F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DAD2D922C30B16001E9F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DAD2DF22C324E7001E9F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +44,7 @@
 		92DAD2C122C30B15001E9F9F = {
 			isa = PBXGroup;
 			children = (
-				92DAD2CC22C30B15001E9F9F /* learning AutoLayout LBTA */,
+				92DAD2CC22C30B15001E9F9F /* learning AutoLayout */,
 				92DAD2CB22C30B15001E9F9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +52,33 @@
 		92DAD2CB22C30B15001E9F9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92DAD2CA22C30B15001E9F9F /* learning AutoLayout LBTA.app */,
+				92DAD2CA22C30B15001E9F9F /* learning AutoLayout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		92DAD2CC22C30B15001E9F9F /* learning AutoLayout LBTA */ = {
+		92DAD2CC22C30B15001E9F9F /* learning AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				92DAD2CD22C30B15001E9F9F /* AppDelegate.swift */,
-				92DAD2CF22C30B15001E9F9F /* ViewController.swift */,
-				92DAD2D122C30B15001E9F9F /* Main.storyboard */,
-				92DAD2D422C30B16001E9F9F /* Assets.xcassets */,
 				92DAD2D622C30B16001E9F9F /* LaunchScreen.storyboard */,
+				92DAD2DF22C324E7001E9F9F /* Assets.xcassets */,
 				92DAD2D922C30B16001E9F9F /* Info.plist */,
+				92D63FED22D04D0A006C4CB6 /* SwippingController.swift */,
+				92D63FEF22D06D3D006C4CB6 /* PageCell.swift */,
+				92D63FF122D2AA32006C4CB6 /* Page.swift */,
+				92D63FF322D2CB93006C4CB6 /* SwippingController+Extension.swift */,
+				92D63FF522D2CC31006C4CB6 /* SwippingControllerUIVIew+Extension.swift */,
 			);
-			path = "learning AutoLayout LBTA";
+			path = "learning AutoLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		92DAD2C922C30B15001E9F9F /* learning AutoLayout LBTA */ = {
+		92DAD2C922C30B15001E9F9F /* learning AutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 92DAD2DC22C30B16001E9F9F /* Build configuration list for PBXNativeTarget "learning AutoLayout LBTA" */;
+			buildConfigurationList = 92DAD2DC22C30B16001E9F9F /* Build configuration list for PBXNativeTarget "learning AutoLayout" */;
 			buildPhases = (
 				92DAD2C622C30B15001E9F9F /* Sources */,
 				92DAD2C722C30B15001E9F9F /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "learning AutoLayout LBTA";
+			name = "learning AutoLayout";
 			productName = "learning AutoLayout LBTA";
-			productReference = 92DAD2CA22C30B15001E9F9F /* learning AutoLayout LBTA.app */;
+			productReference = 92DAD2CA22C30B15001E9F9F /* learning AutoLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 92DAD2C522C30B15001E9F9F /* Build configuration list for PBXProject "learning AutoLayout LBTA" */;
+			buildConfigurationList = 92DAD2C522C30B15001E9F9F /* Build configuration list for PBXProject "learning AutoLayout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				92DAD2C922C30B15001E9F9F /* learning AutoLayout LBTA */,
+				92DAD2C922C30B15001E9F9F /* learning AutoLayout */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92DAD2D822C30B16001E9F9F /* LaunchScreen.storyboard in Resources */,
-				92DAD2D522C30B16001E9F9F /* Assets.xcassets in Resources */,
-				92DAD2D322C30B15001E9F9F /* Main.storyboard in Resources */,
+				92DAD2E022C324E7001E9F9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92DAD2D022C30B15001E9F9F /* ViewController.swift in Sources */,
+				92D63FF422D2CB93006C4CB6 /* SwippingController+Extension.swift in Sources */,
+				92D63FF622D2CC31006C4CB6 /* SwippingControllerUIVIew+Extension.swift in Sources */,
+				92D63FEE22D04D0A006C4CB6 /* SwippingController.swift in Sources */,
+				92D63FF022D06D3D006C4CB6 /* PageCell.swift in Sources */,
 				92DAD2CE22C30B15001E9F9F /* AppDelegate.swift in Sources */,
+				92D63FF222D2AA32006C4CB6 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92DAD2D122C30B15001E9F9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92DAD2D222C30B15001E9F9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		92DAD2D622C30B16001E9F9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "learning AutoLayout LBTA/Info.plist";
+				DEVELOPMENT_TEAM = X27L74NC87;
+				INFOPLIST_FILE = "$(SRCROOT)/learning AutoLayout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.priyans.learning-AutoLayout-LBTA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.priyans.learning-AutoLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "learning AutoLayout LBTA/Info.plist";
+				DEVELOPMENT_TEAM = X27L74NC87;
+				INFOPLIST_FILE = "$(SRCROOT)/learning AutoLayout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.priyans.learning-AutoLayout-LBTA";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.priyans.learning-AutoLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		92DAD2C522C30B15001E9F9F /* Build configuration list for PBXProject "learning AutoLayout LBTA" */ = {
+		92DAD2C522C30B15001E9F9F /* Build configuration list for PBXProject "learning AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92DAD2DA22C30B16001E9F9F /* Debug */,
@@ -324,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		92DAD2DC22C30B16001E9F9F /* Build configuration list for PBXNativeTarget "learning AutoLayout LBTA" */ = {
+		92DAD2DC22C30B16001E9F9F /* Build configuration list for PBXNativeTarget "learning AutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				92DAD2DD22C30B16001E9F9F /* Debug */,
